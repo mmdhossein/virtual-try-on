@@ -53,7 +53,9 @@ CatVTON (Local GPU Inference — RTX 5060 8GB)
 
 bash
 git clone https://github.com/mmdhossein/virtual-try-on.git
+
 cd virtual-try-on
+
 pip install -r requirements.txt
 
 ### Configuration
@@ -62,8 +64,11 @@ Create a `.env` file:
 
 env
 DIFY_AUTH_TOKE=your_dify_api_key
+
 DIFY_WORKFLOW_URL=http://your-dify-instance/v1/workflows/run
+
 CATVTON_MODEL_PATH=path/to/catvton/weights
+
 TIMEOUT=30
 
 ### Run
