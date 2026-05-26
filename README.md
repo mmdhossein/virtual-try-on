@@ -52,8 +52,8 @@ CatVTON (Local GPU Inference — RTX 5060 8GB)
 ### Installation
 
 bash
-git clone https://github.com/your-username/your-repo
-cd your-repo
+git clone https://github.com/mmdhossein/virtual-try-on.git
+cd virtual-try-on
 pip install -r requirements.txt
 
 ### Configuration
