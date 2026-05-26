@@ -23,6 +23,11 @@ Dify Workflow (Agent / LLM Routing)
       ↕
 CatVTON (Local GPU Inference — RTX 5060 8GB)
 
+## Dify flow
+
+![diagram](img/Fashion Assistant 2-whole-workflow.png)
+
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
