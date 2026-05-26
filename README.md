@@ -1,6 +1,8 @@
 # 👗 AI Fashion Virtual Try-On Agent
-
 An intelligent virtual try-on system powered by an AI agent that understands natural language, classifies uploaded images, and generates realistic outfit try-on results.
+
+![diagram](img/AI_Fashion_Assistant_Workflow_Overview.png)
+
 
 ## ✨ Features
 
