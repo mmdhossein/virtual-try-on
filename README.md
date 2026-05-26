@@ -73,7 +73,6 @@ TIMEOUT=30
 
 ### Run
 
-bash
 # Start backend
 uvicorn server:app --reload
 
@@ -91,6 +90,7 @@ docker compose -f .\docker-compose.yaml up -d
 ├── frontend.py       # Gradio chat UI
 ├── requirements.txt
 └── .env.example
+└── dify
 
 ## 🔄 Workflow
 
