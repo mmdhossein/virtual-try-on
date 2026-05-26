@@ -1,5 +1,3 @@
-# virtual-try-on
-
 # 👗 AI Fashion Virtual Try-On Agent
 
 An intelligent virtual try-on system powered by an AI agent that understands natural language, classifies uploaded images, and generates realistic outfit try-on results.
@@ -55,18 +53,23 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 env
-DIFY_API_KEY=your_dify_api_key
+DIFY_AUTH_TOKE=your_dify_api_key
 DIFY_WORKFLOW_URL=http://your-dify-instance/v1/workflows/run
 CATVTON_MODEL_PATH=path/to/catvton/weights
+TIMEOUT=30
 
 ### Run
 
 bash
 # Start backend
-python backend.py
+uvicorn server:app --reload
 
 # Start frontend
-python frontend.py
+python app.py
+
+# Start Dify
+docker compose -f .\docker-compose.yaml up -d
+
 
 ## 📁 Project Structure
 
